@@ -296,7 +296,7 @@ def get_clf(final_file_path, model_confidence_csv_path, clf_file, recalculate=Tr
     # }
     # f1_scorer_L = make_scorer(
     #     f1_score, labels=['H', 'D', 'A'], average='micro')
-    # clf_L = get_grid_clf(clf_L, f1_scorer_L, parameters_L, X_all, y_all)
+    # clf_L = get_grid_clf(clf_L, f1_scorer_L, paragit initmeters_L, X_all, y_all)
     # classifiers.append(clf_L)
 
     # We are going to record accuracies of each classifier prediction iteration
